@@ -49,6 +49,7 @@ public class RideCount {
 		final int servingSpeedFactor = 600; // events of 10 minutes are served every second
 
 		// set up streaming execution environment
+
 		StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 		env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 
